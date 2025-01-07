@@ -1,4 +1,4 @@
-const accessKey = "3rPOx8hfwkeMxir1J2_HO53WCKCJU7gR7ECXQUj6mvQ";
+const accessKey = "";
 
 const searchForm = document.getElementById("search-form");
 const searchBox = document.getElementById("search-box");
@@ -13,7 +13,7 @@ let page = 1;
 // Function to search for images
 async function searchImage() {
     keyword = searchBox.value;
-    const url = `https://api.unsplash.com/search/photos?page=${page}&query=${keyword}&client_id=${accessKey}&per_page=12`;
+    const url = ``;
 
     const response = await fetch(url);
     const data = await response.json();
